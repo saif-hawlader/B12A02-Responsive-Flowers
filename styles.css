@@ -253,12 +253,11 @@ body {
 
 
 .right h2 {
-  font-size: 50px;
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
 .right ul {
-  font-size: 22px;
   list-style-type: disc;
   padding-left: 20px;
   color: #555;
