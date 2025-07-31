@@ -559,4 +559,7 @@ body {
         justify-content: flex-start;
       }
     }
-
+.footer-column a{
+    color: gray;
+    font-weight: 400;
+}
