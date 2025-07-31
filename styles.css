@@ -90,3 +90,118 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+/* banner media */
+@media (max-width: 768px) {
+  .nav-links {
+    justify-content: space-between;
+  }
+
+  .link.desktop {
+    display: none; 
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .banner-text {
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .banner-image {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .banner-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* plant card */
+.plants-section {
+  background-color: #f4f7fb;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+.plants-header h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.plants-header {
+  color: rgba(17, 17, 17, 1);
+}
+
+.plants-header p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.plants-header a {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+.plants-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.plant-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 15px;
+}
+
+.plant-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.plant-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.plant-card .price {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.plant-card button {
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plant-card button:hover {
+  background-color: slateblue;
+}
+
+
+@media (max-width: 768px) {
+  .plants-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
