@@ -267,7 +267,7 @@ body {
 @media (max-width: 768px) {
   .flower-plants {
     flex-direction: column;
-    text-align: right ;
+    text-align: left ;
   }
 
   .trusted-badge {
